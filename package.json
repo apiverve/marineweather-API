@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/marineweather",
+  "version": "1.0.0",
+  "description": "Marine Weather is a simple tool for getting marine weather data. It returns the wind speed, wave height, and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/marineweather-API.git"
+  },
+  "keywords": [
+    "marine weather"," marine weather data"," marine weather api"," marine weather data api"," marine weather tool"," marine weather software"," marine weather service"," marine weather library"," marine weather sdk"," marine weather code"," marine weather script"," marine weather program"," marine weather application"," marine weather app"," marine weather utility"," marine weather helper"," marine weather helper tool"," marine weather helper software"," marine weather helper service"," marine weather helper library"," marine weather helper sdk"," marine weather helper code"," marine weather helper script"," marine weather helper program"," marine weather helper application"," marine weather helper app"," marine weather helper tool"," marine weather helper utility"," marine weather helper"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/marineweather-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/marineweather-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
