@@ -11,7 +11,7 @@
     "url": "git+https://github.com/apiverve/marineweather-API.git"
   },
   "keywords": [
-    "marine weather"," marine weather data"," marine weather api"," marine weather data api"," marine weather tool"," marine weather software"," marine weather service"," marine weather library"," marine weather sdk"," marine weather code"," marine weather script"," marine weather program"," marine weather application"," marine weather app"," marine weather utility"," marine weather helper"," marine weather helper tool"," marine weather helper software"," marine weather helper service"," marine weather helper library"," marine weather helper sdk"," marine weather helper code"," marine weather helper script"," marine weather helper program"," marine weather helper application"," marine weather helper app"," marine weather helper tool"," marine weather helper utility"," marine weather helper"
+    "marine weather","marine weather data","marine weather api","marine weather data api","marine weather tool"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
@@ -27,6 +27,6 @@
   "dependencies": {
     "node-fetch": "3.3.2",
     "promise": "^7.1.1",
-    "request": "^2.69.0"
+    "axios": "^0.15.3"
   }
 }
