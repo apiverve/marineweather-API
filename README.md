@@ -1,7 +1,7 @@
 Marine Weather API
 ============
 
-Marine Weather is a simple tool for getting marine weather data. It returns the wind speed, wave height, and more.
+Marine Weather is a simple tool for getting marine weather data. It returns the current weather conditions in coordinates within the ocean and sea.
 
 ![Build Status](https://img.shields.io/badge/build-passing-green)
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
@@ -77,24 +77,21 @@ api.execute(query, function (error, data) {
       "lon": -37.62424
     },
     "weather": {
-      "mAempc": 21.3,
-      "mAempf": 70.3,
-      "mIempc": 20.2,
-      "mIempf": 68.4,
-      "aVempc": 20.9,
-      "aVempf": 69.6,
-      "mAindmph": 16.6,
-      "mAindkph": 26.8,
-      "tOrecipmm": 0.79,
-      "tOrecipin": 0.03,
-      "tOnowcm": 0,
-      "aViskm": 10,
-      "aVismiles": 6,
-      "aVumidity": 78,
-      "moonphase": "Waxing Crescent",
-      "moonillumItion": 32,
-      "ismoonup": 0,
-      "issunup": 0
+      "maxtempc": 25.8,
+      "maxtempf": 78.4,
+      "mintempc": 21.4,
+      "mintempf": 70.5,
+      "avgtempc": 24.9,
+      "avgtempf": 76.7,
+      "maxwindmph": 7.4,
+      "maxwindkph": 11.9,
+      "totalprecipmm": 0.92,
+      "totalprecipin": 0.04,
+      "totalsnowcm": 0,
+      "avgviskm": 10,
+      "avgvismiles": 6,
+      "moonphase": "Waxing Gibbous",
+      "moonillumination": 75
     }
   }
 }
