@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/marineweather",
-  "version": "1.0.2",
-  "description": "Marine Weather is a simple tool for getting marine weather data. It returns the wind speed, wave height, and more.",
+  "version": "1.0.3",
+  "description": "Marine Weather is a simple tool for getting marine weather data. It returns the current weather conditions in coordinates within the ocean and sea.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
